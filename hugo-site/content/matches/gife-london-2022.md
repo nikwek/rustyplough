@@ -7,6 +7,8 @@ team_away: "Sticky Buns FC"
 score_home: 7
 score_away: 1
 layout: "match"
+match_id: "london-2022"
 ---
 
-Add your match report here for the London 2022 rematch.
+
+In April 2022, the Rusty Plough played a re-match against the Sticky Buns in a much less stabby part of London than the first match. Here are some pictures...
