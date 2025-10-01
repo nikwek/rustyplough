@@ -1,0 +1,25 @@
+# GIFE I - Ireland 2017
+# Upload files to R2, then list them below in the order you want them to appear
+# Hugo will auto-detect videos by file extension (.mov, .mp4)
+
+gallery:
+  # Add your filenames here (use underscores instead of spaces)
+  - GIFE-I-The-Greatest-Friendly-Ever-1.jpg
+  - GIFE-I-The-Greatest-Friendly-Ever.jpg
+  - GIFE-I-IMG_0069.JPG
+  - GIFE-I-IMG_0100.JPG
+  - GIFE-I-IMG_0108.JPG
+  - GIFE-I-IMG_0111.JPG
+  - GIFE-I-IMG_0112.JPG
+  - GIFE-I-IMG_2429.JPG
+  - GIFE-I-IMG_2451.mp4
+  - GIFE-I-IMG_6366.JPG
+  - GIFE-I-IMG_6367.JPG
+  - GIFE-I-IMG_6368.JPG
+  - GIFE-I-IMG_6371.JPG
+  - GIFE-I-IMG_6373.JPG
+  - GIFE-I-IMG_6375.JPG
+  - GIFE-I-IMG_6376.JPG
+  - GIFE-I-IMG_6379.JPG
+  - GIFE-I-IMG_6380.JPG
+  - GIFE-I-IMG_6385.JPG
