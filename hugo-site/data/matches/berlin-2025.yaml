@@ -1,12 +1,25 @@
 # Add your Berlin 2025 match photos and videos here
-# Upload files to R2, then list the filenames below
+# Upload files to R2, then list them below in the order you want them to appear
+# Hugo will auto-detect videos by file extension (.mov, .mp4)
 
-images:
-  # Example: Uncomment and add your actual filenames
-  # - berlin-team-photo.jpg
-  # - berlin-action-1.jpg
-  # - berlin-celebration.jpg
-
-videos:
-  # Example: Uncomment and add your actual filenames
-  # - berlin-highlights.mov
+items:
+  - GIFE-V_HQ.jpg
+  - GIFE-V_poster.jpeg
+  - GIFE-V_leaving_the_hotel.mov
+  - GIFE-V_IMG_1032.jpeg
+  - GIFE-V_IMG_1033.jpeg
+  - GIFE-V_IMG_4698.jpeg
+  - GIFE-V_IMG_5351.jpeg
+  - GIFE-V_IMG_4703.jpeg
+  - GIFE-V_IMG_4704.jpeg
+  - GIFE-V_IMG_0471.jpg
+  - GIFE-V_IMG_7814.jpeg
+  - GIFE-V_chris_jeff_gaston.jpeg
+  - GIFE-V_IMG_4709.jpeg
+  - GIFE-V_IMG_4716.jpeg
+  - GIFE-V_IMG_4717.jpeg
+  - GIFE-V_team_picture_with_x_kickers.jpg
+  - GIFE-V_team_picture.jpg
+  - GIFE-V_furlong.jpeg
+  - GIFE-V_X-Kickers_Logo.png
+  

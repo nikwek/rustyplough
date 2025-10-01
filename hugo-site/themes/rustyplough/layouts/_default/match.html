@@ -23,26 +23,34 @@
             {{ .Content }}
         </div>
 
+        {{ if .Params.match_id }}
         {{ $matchData := index .Site.Data.matches .Params.match_id }}
-        {{ if or $matchData.images $matchData.videos }}
+        {{ $galleryItems := default (default slice $matchData.items) $matchData.gallery }}
+        {{ if $galleryItems }}
         <h2 class="text-center" style="color: var(--secondary-color); margin: 3rem 0 2rem;">Match Gallery</h2>
         
         <!-- Gallery Grid -->
         <div class="gallery-grid">
-            {{ range $matchData.images }}
-            <div class="gallery-item" data-src="https://media.rustyploughfc.com/{{ . }}">
-                <img src="https://media.rustyploughfc.com/{{ . }}" alt="Match photo" loading="lazy">
-            </div>
+            {{ range $galleryItems }}
+            {{ $filename := . }}
+            {{ if reflect.IsMap . }}
+                {{ $filename = .file }}
             {{ end }}
-            
-            {{ range $matchData.videos }}
-            <div class="gallery-item" data-src="https://media.rustyploughfc.com/{{ . }}" data-type="video">
-                <video src="https://media.rustyploughfc.com/{{ . }}" preload="metadata"></video>
+            {{ $mediaURL := printf "https://media.rustyploughfc.com/%s" $filename }}
+            {{ $ext := path.Ext $filename }}
+            {{ if or (eq $ext ".mov") (eq $ext ".mp4") (eq $ext ".MOV") (eq $ext ".MP4") }}
+            <div class="gallery-item" data-src="{{ $mediaURL }}" data-type="video">
+                <video src="{{ $mediaURL }}" preload="metadata"></video>
                 <div class="play-icon">▶</div>
             </div>
+            {{ else }}
+            <div class="gallery-item" data-src="{{ $mediaURL }}">
+                <img src="{{ $mediaURL }}" alt="Match photo" loading="lazy">
+            </div>
+            {{ end }}
             {{ end }}
         </div>
-        {{ else }}
+        {{ else if .Params.match_id }}
         <div class="content-card" style="margin-top: 3rem;">
             <p><strong>📸 Add photos and videos for this match:</strong></p>
             <ol style="margin-top: 1rem; margin-left: 2rem;">
@@ -52,6 +60,7 @@
                 <li>Commit and push!</li>
             </ol>
         </div>
+        {{ end }}
         {{ end }}
 
         <div style="text-align: center; margin-top: 3rem;">

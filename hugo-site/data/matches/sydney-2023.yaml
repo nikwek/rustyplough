@@ -1,0 +1,81 @@
+# GIFE IV - Sydney 2023 match photos and videos
+# Upload files to R2, then list them below in the order you want them to appear
+# Hugo will auto-detect videos by file extension (.mov, .mp4)
+
+gallery:
+  # Add your filenames here (use underscores instead of spaces)
+  # Example:
+  # - sydney-team-photo.jpg
+  # - sydney-match-action.jpeg
+  # - sydney-highlights.mov
+  - GIFEDU-no-excuses.jpg
+  - GIFEDU-6-EXP.jpg
+  - GIFEDU-5-EXP.jpg
+  - GIFEDU-9-EXP.jpg
+  - GIFEDU-10-EXP.jpg
+  - GIFEDU-12-EXP.jpg
+  - GIFEDU-16-EXP.jpg
+  - GIFEDU-35-EXP.jpg
+  - GIFEDU-36-EXP.jpg
+  - GIFEDU-44-EXP.jpg
+  - GIFEDU-46-EXP.jpg
+  - GIFEDU-47-EXP.jpg
+  - GIFEDU-49-EXP.jpg
+  - GIFEDU-51-EXP.jpg
+  - GIFEDU-53-EXP.jpg
+  - GIFEDU-54-EXP.jpg
+  - GIFEDU-55-EXP.jpg
+  - GIFEDU-58-EXP.jpg
+  - GIFEDU-59-EXP.jpg
+  - GIFEDU-60-EXP.jpg
+  - GIFEDU-63-EXP.jpg
+  - GIFEDU-75-EXP.jpg
+  - GIFEDU-76-EXP.jpg
+  - GIFEDU-82-EXP.jpg
+  - GIFEDU-83-EXP.jpg
+  - GIFEDU-87-EXP.jpg
+  - GIFEDU-88-EXP.jpg
+  - GIFEDU-90-EXP.jpg
+  - GIFEDU-91-EXP.jpg
+  - GIFEDU-93-EXP.jpg
+  - GIFEDU-96-EXP.jpg
+  - GIFEDU-97-EXP.jpg
+  - GIFEDU-98-EXP.jpg
+  - GIFEDU-99-EXP.jpg
+  - GIFEDU-100-EXP.jpg
+  - GIFEDU-101-EXP.jpg
+  - GIFEDU-102-EXP.jpg
+  - GIFEDU-103-EXP.jpg
+  - GIFEDU-105-EXP.jpg
+  - GIFEDU-106-EXP.jpg
+  - GIFEDU-116-EXP.jpg
+  - GIFEDU-117-EXP.jpg
+  - GIFEDU-124-EXP.jpg
+  - GIFEDU-129-EXP.jpg
+  - GIFEDU-139-EXP.jpg
+  - GIFEDU-145-EXP.jpg
+  - GIFEDU-146-EXP.jpg
+  - GIFEDU-150-EXP.jpg
+  - GIFEDU-158-EXP.jpg
+  - GIFEDU-159-EXP.jpg
+  - GIFEDU-160-EXP.jpg
+  - GIFEDU-161-EXP.jpg
+  - GIFEDU-162-EXP.jpg
+  - GIFEDU-163-EXP.jpg
+  - GIFEDU-164-EXP.jpg
+  - GIFEDU-165-EXP.jpg
+  - GIFEDU-166-EXP.jpg
+  - GIFEDU-167-EXP.jpg
+  - GIFEDU-168-EXP.jpg
+  - GIFEDU-169-EXP.jpg
+  - GIFEDU-170-EXP.jpg
+  - GIFEDU-171-EXP.jpg
+  - GIFEDU-172-EXP.jpg
+  - GIFEDU-173-EXP.jpg
+  - GIFEDU-174-EXP.jpg
+  - GIFEDU-175-EXP.jpg
+  - GIFEDU-176-EXP.jpg
+  - GIFEDU-177-EXP.jpg
+  - GIFEDU-178-EXP.jpg
+  - GIFEDU-179-EXP.jpg
+  - GIFEDU-toffs-logo.png
