@@ -69,49 +69,18 @@
         <div class="carousel">
             <button class="carousel-nav carousel-prev">&#10094;</button>
             <div class="carousel-container">
+                {{ range .Site.Data.carousel.images }}
                 <div class="carousel-slide">
-                    <img src="https://media.rustyploughfc.com/carousel-slide1.jpg" alt="Team Photo" onerror="this.parentElement.style.display='none'">
-                    <div class="carousel-caption">
-                        <h3>Team Photo 2024</h3>
-                    </div>
+                    <img src="https://media.rustyploughfc.com/{{ . }}" alt="Team Moment" onerror="this.parentElement.style.display='none'">
                 </div>
-                <div class="carousel-slide">
-                    <img src="https://media.rustyploughfc.com/carousel-slide2.jpg" alt="Match Action" onerror="this.parentElement.style.display='none'">
-                    <div class="carousel-caption">
-                        <h3>Match Day Action</h3>
-                    </div>
-                </div>
-                <div class="carousel-slide">
-                    <img src="https://media.rustyploughfc.com/carousel-slide3.jpg" alt="Team Moment" onerror="this.parentElement.style.display='none'">
-                </div>
-                <div class="carousel-slide">
-                    <img src="https://media.rustyploughfc.com/carousel-slide4.jpg" alt="Team Moment" onerror="this.parentElement.style.display='none'">
-                </div>
-                <div class="carousel-slide">
-                    <img src="https://media.rustyploughfc.com/carousel-slide5.jpg" alt="Team Moment" onerror="this.parentElement.style.display='none'">
-                </div>
-                <div class="carousel-slide">
-                    <img src="https://media.rustyploughfc.com/carousel-slide6.jpg" alt="Team Moment" onerror="this.parentElement.style.display='none'">
-                </div>
-                <div class="carousel-slide">
-                    <img src="https://media.rustyploughfc.com/carousel-slide7.jpg" alt="Team Moment" onerror="this.parentElement.style.display='none'">
-                </div>
-                <div class="carousel-slide">
-                    <img src="https://media.rustyploughfc.com/carousel-slide8.jpg" alt="Team Moment" onerror="this.parentElement.style.display='none'">
-                </div>
-                <div class="carousel-slide">
-                    <img src="https://media.rustyploughfc.com/carousel-slide9.jpg" alt="Team Moment" onerror="this.parentElement.style.display='none'">
-                </div>
-                <div class="carousel-slide">
-                    <img src="https://media.rustyploughfc.com/carousel-slide10.jpg" alt="Team Moment" onerror="this.parentElement.style.display='none'">
-                </div>
+                {{ end }}
             </div>
             <button class="carousel-nav carousel-next">&#10095;</button>
             <div class="carousel-dots"></div>
         </div>
         
         <p class="text-center" style="margin-top: 1rem; opacity: 0.7;">
-            Upload carousel images to R2 as <code>carousel-slide1.jpg</code>, <code>carousel-slide2.jpg</code>, etc.
+            To add more images: Upload to R2, then add filename to <code>hugo-site/data/carousel.yaml</code>
         </p>
     </div>
 </section>
