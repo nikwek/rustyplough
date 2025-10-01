@@ -1,0 +1,12 @@
+# Add your Berlin 2025 match photos and videos here
+# Upload files to R2, then list the filenames below
+
+images:
+  # Example: Uncomment and add your actual filenames
+  # - berlin-team-photo.jpg
+  # - berlin-action-1.jpg
+  # - berlin-celebration.jpg
+
+videos:
+  # Example: Uncomment and add your actual filenames
+  # - berlin-highlights.mov

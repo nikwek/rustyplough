@@ -23,38 +23,36 @@
             {{ .Content }}
         </div>
 
+        {{ $matchData := index .Site.Data.matches .Params.match_id }}
+        {{ if or $matchData.images $matchData.videos }}
         <h2 class="text-center" style="color: var(--secondary-color); margin: 3rem 0 2rem;">Match Gallery</h2>
         
         <!-- Gallery Grid -->
         <div class="gallery-grid">
-            <!-- Example gallery items - replace with your actual photos -->
-            <div class="gallery-item" data-src="{{ "images/matches/berlin-2025/photo1.jpg" | relURL }}" data-caption="Pre-match team photo">
-                <img src="{{ "images/matches/berlin-2025/photo1.jpg" | relURL }}" alt="Pre-match team photo" onerror="this.parentElement.style.display='none'">
+            {{ range $matchData.images }}
+            <div class="gallery-item" data-src="https://media.rustyploughfc.com/{{ . }}">
+                <img src="https://media.rustyploughfc.com/{{ . }}" alt="Match photo" loading="lazy">
             </div>
+            {{ end }}
             
-            <div class="gallery-item" data-src="{{ "images/matches/berlin-2025/photo2.jpg" | relURL }}" data-caption="Match action">
-                <img src="{{ "images/matches/berlin-2025/photo2.jpg" | relURL }}" alt="Match action" onerror="this.parentElement.style.display='none'">
-            </div>
-            
-            <div class="gallery-item" data-src="{{ "images/matches/berlin-2025/photo3.jpg" | relURL }}" data-caption="Team celebration">
-                <img src="{{ "images/matches/berlin-2025/photo3.jpg" | relURL }}" alt="Team celebration" onerror="this.parentElement.style.display='none'">
-            </div>
-            
-            <div class="gallery-item" data-src="{{ "videos/matches/berlin-2025-highlights.mp4" | relURL }}" data-caption="Match Highlights" data-type="video">
-                <video src="{{ "videos/matches/berlin-2025-highlights.mp4" | relURL }}" preload="metadata"></video>
+            {{ range $matchData.videos }}
+            <div class="gallery-item" data-src="https://media.rustyploughfc.com/{{ . }}" data-type="video">
+                <video src="https://media.rustyploughfc.com/{{ . }}" preload="metadata"></video>
                 <div class="play-icon">▶</div>
             </div>
-            
-            <!-- Placeholder message -->
-            <div class="content-card" style="grid-column: 1 / -1;">
-                <p><strong>Add your match photos and videos:</strong></p>
-                <ul style="margin-top: 1rem; margin-left: 2rem;">
-                    <li>Photos: <code>static/images/matches/berlin-2025/</code></li>
-                    <li>Videos: <code>static/videos/matches/</code></li>
-                </ul>
-                <p style="margin-top: 1rem;">Then update this template to display them in the gallery above.</p>
-            </div>
+            {{ end }}
         </div>
+        {{ else }}
+        <div class="content-card" style="margin-top: 3rem;">
+            <p><strong>📸 Add photos and videos for this match:</strong></p>
+            <ol style="margin-top: 1rem; margin-left: 2rem;">
+                <li>Upload your files to R2 at <code>media.rustyploughfc.com</code></li>
+                <li>Edit <code>hugo-site/data/matches/{{ .Params.match_id }}.yaml</code></li>
+                <li>Add the filenames to the <code>images:</code> or <code>videos:</code> list</li>
+                <li>Commit and push!</li>
+            </ol>
+        </div>
+        {{ end }}
 
         <div style="text-align: center; margin-top: 3rem;">
             <a href="{{ "/international/" | relURL }}" style="color: var(--secondary-color); font-weight: 600;">← Back to International Competitions</a>
