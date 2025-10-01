@@ -1,0 +1,27 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Rusty Plough FC | ⚽ | Berkeley CA'
+theme = 'rustyplough'
+
+[params]
+  description = "The Rusty Plough is an over 40 soccer team based in Berkeley, CA."
+  author = "Rusty Plough FC"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "International Competitions"
+    url = "/international/"
+    weight = 2
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,95 @@
+{{ define "main" }}
+<section class="hero">
+    <div class="hero-content">
+        <img src="{{ "images/logo.png" | relURL }}" alt="Rusty Plough FC Logo" class="hero-logo">
+        <div class="hero-text">
+            <h1>RUST NEVER SLEEPS</h1>
+            <p class="hero-subtitle">Official Home of the Rusty Plough Football Club</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="content-card">
+            <h2>THE TEAM</h2>
+            <p class="subtitle">Work hard, play harder</p>
+            <p>It's still unclear whether these chaps are football players with a drinking problem or alcoholics with a football problem, but it is obvious that football and beer go hand in hand. A rag-tag bunch of old farts that love kicking the ball around and celebrating wins (or mourning losses) with a pint or two.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section sponsor-section">
+    <div class="container text-center">
+        <h3>Thank you to our sponsor</h3>
+        <div class="sponsor-logo">
+            <img src="{{ "images/rusty-plough-pub.png" | relURL }}" alt="The Rusty Plough Pub" onerror="this.style.display='none'">
+        </div>
+    </div>
+</section>
+
+<section class="section quote-section">
+    <div class="container text-center">
+        <h2 class="quote">A TRUE RUSTY NEVER QUITS</h2>
+        <p>Kicking a ball? Drinking?</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="content-card">
+            <h2>TEAM HISTORY</h2>
+            <p class="subtitle">Founded in 1995 in Oakland, CA</p>
+            <p>That's Art. He's a legend. More information will be added soon when the lazy farts that said we need a website provide some more content.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section schedule-section">
+    <div class="container">
+        <h2 class="text-center">RUSTY GAMES</h2>
+        <p class="text-center">Visit <a href="http://ebssl.com/Schd_rus.htm" target="_blank" rel="noopener">EBSSL.com</a> for league information and the full schedule.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2 class="text-center" style="color: var(--secondary-color); margin-bottom: 2rem;">Team Moments</h2>
+        
+        <!-- Carousel -->
+        <div class="carousel">
+            <button class="carousel-nav carousel-prev">&#10094;</button>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="{{ "images/carousel/slide1.jpg" | relURL }}" alt="Team Photo" onerror="this.parentElement.style.display='none'">
+                    <div class="carousel-caption">
+                        <h3>Team Photo 2024</h3>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="{{ "images/carousel/slide2.jpg" | relURL }}" alt="Match Action" onerror="this.parentElement.style.display='none'">
+                    <div class="carousel-caption">
+                        <h3>Match Day Action</h3>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="{{ "images/carousel/slide3.jpg" | relURL }}" alt="Celebration" onerror="this.parentElement.style.display='none'">
+                    <div class="carousel-caption">
+                        <h3>Victory Celebration</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-nav carousel-next">&#10095;</button>
+            <div class="carousel-dots"></div>
+        </div>
+        
+        <p class="text-center" style="margin-top: 1rem; opacity: 0.7;">
+            Add your images to <code>static/images/carousel/</code> folder
+        </p>
+    </div>
+</section>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="{{ "js/carousel.js" | relURL }}"></script>
+{{ end }}

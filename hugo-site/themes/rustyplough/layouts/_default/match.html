@@ -1,0 +1,79 @@
+{{ define "main" }}
+<section class="page-header">
+    <div class="container">
+        <h1>🇩🇪 {{ .Title }}</h1>
+        <p>{{ .Date.Format "January 2, 2006" }} • {{ .Params.location }}</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="content-card">
+            <div class="match-score" style="margin-bottom: 2rem;">
+                <div class="team">
+                    <span class="team-name">{{ .Params.team_home }}</span>
+                </div>
+                <div class="score">{{ .Params.score_home }} : {{ .Params.score_away }}</div>
+                <div class="team">
+                    <span class="team-name">{{ .Params.team_away }}</span>
+                </div>
+            </div>
+
+            <h2>Match Report</h2>
+            {{ .Content }}
+        </div>
+
+        <h2 class="text-center" style="color: var(--secondary-color); margin: 3rem 0 2rem;">Match Gallery</h2>
+        
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+            <!-- Example gallery items - replace with your actual photos -->
+            <div class="gallery-item" data-src="{{ "images/matches/berlin-2025/photo1.jpg" | relURL }}" data-caption="Pre-match team photo">
+                <img src="{{ "images/matches/berlin-2025/photo1.jpg" | relURL }}" alt="Pre-match team photo" onerror="this.parentElement.style.display='none'">
+            </div>
+            
+            <div class="gallery-item" data-src="{{ "images/matches/berlin-2025/photo2.jpg" | relURL }}" data-caption="Match action">
+                <img src="{{ "images/matches/berlin-2025/photo2.jpg" | relURL }}" alt="Match action" onerror="this.parentElement.style.display='none'">
+            </div>
+            
+            <div class="gallery-item" data-src="{{ "images/matches/berlin-2025/photo3.jpg" | relURL }}" data-caption="Team celebration">
+                <img src="{{ "images/matches/berlin-2025/photo3.jpg" | relURL }}" alt="Team celebration" onerror="this.parentElement.style.display='none'">
+            </div>
+            
+            <div class="gallery-item" data-src="{{ "videos/matches/berlin-2025-highlights.mp4" | relURL }}" data-caption="Match Highlights" data-type="video">
+                <video src="{{ "videos/matches/berlin-2025-highlights.mp4" | relURL }}" preload="metadata"></video>
+                <div class="play-icon">▶</div>
+            </div>
+            
+            <!-- Placeholder message -->
+            <div class="content-card" style="grid-column: 1 / -1;">
+                <p><strong>Add your match photos and videos:</strong></p>
+                <ul style="margin-top: 1rem; margin-left: 2rem;">
+                    <li>Photos: <code>static/images/matches/berlin-2025/</code></li>
+                    <li>Videos: <code>static/videos/matches/</code></li>
+                </ul>
+                <p style="margin-top: 1rem;">Then update this template to display them in the gallery above.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="{{ "/international/" | relURL }}" style="color: var(--secondary-color); font-weight: 600;">← Back to International Competitions</a>
+        </div>
+    </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <button class="lightbox-nav lightbox-prev" onclick="changeImage(-1)">&#10094;</button>
+    <div class="lightbox-content" id="lightbox-content">
+        <!-- Content will be dynamically inserted -->
+    </div>
+    <button class="lightbox-nav lightbox-next" onclick="changeImage(1)">&#10095;</button>
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="{{ "js/gallery.js" | relURL }}"></script>
+{{ end }}
