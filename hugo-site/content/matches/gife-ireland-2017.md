@@ -10,14 +10,14 @@ layout: "match"
 match_id: "ireland-2017"
 ---
 
-It started as an innocent discussion in a pub. Michael Furlong told us about renewing his vows with Mira in Ireland. We asked if we could join... ideas about playing a game in Ireland were floating around... beers were consumed... plans were made... and so, the GIFE was born. The Greatest International Friendly Ever. As this is the first GIFE, there was a LOT of media coverage. This video will eventually turn into a documentary about old men playing football:
+It started as an innocent discussion in a pub. Furlong told us about renewing his vows with Mira in Ireland. We jokingly asked if we could join... the seed was planted... beers were consumed... ideas about playing a game in Ireland started floating around... more beers were consumed... plans were made... and so, the The Greatest International Friendly Ever (GIFE) was born. In hindsight, we probably should have involved Mira in the decision. This is the first GIFE, so it received A LOT of media coverage. Michael Furlong's magnum opus is [this video](https://vimeo.com/307345625) which, we are sure, will eventually turn into the greatest documentary ever about old men playing football:
 
 {{< vimeo 307345625 >}}
 
-
+<br><br>
 ---
 
-This is what the Irish Times had to say about the match (The "journalist", Chris Hudson, believes that truth should never get in the way of a good story):
+This is what we imagine the Irish Times would have said if they had known about the match (Keep in mind that our "journalist", Chris Hudson, believes that truth should never get in the way of a good story):
 
 
 # THE IRISH TIMES
