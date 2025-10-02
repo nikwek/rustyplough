@@ -56,11 +56,29 @@ hugo server --buildDrafts
 
 ### Adding Blog Posts
 
+Create a new blog post with date prefix:
+
 ```bash
-cd hugo-site
-hugo new content/blog/my-post.md
-# Edit the file with your content
+cd hugo-site/content/blog
+# Create file: YYYY-MM-DD-title.md
+# Example: 2025-09-21-afc-juventus-rusty-plough.md
 ```
+
+**Front matter template:**
+```yaml
+---
+title: "Match Title"
+date: 2025-09-21
+author: "Your Name"
+description: ""
+---
+```
+
+**Formatting tips:**
+- Use `## Heading` for sections (gets automatic spacing)
+- Use `## Golden Boot` for goal scorers (consistent with other posts)
+- Double enter creates paragraph spacing
+- Links are automatically yellow (theme color)
 
 ### Adding Match Pages
 
@@ -70,9 +88,50 @@ hugo new content/matches/match-name.md
 # Edit with match details and photos
 ```
 
-### Adding Images
+### Managing Images
 
-Copy images to `hugo-site/themes/rustyplough/static/images/`
+**All images are hosted on Cloudflare R2:**
+- Upload to: `https://media.rustyploughfc.com/`
+- Reference in posts: `https://media.rustyploughfc.com/filename.jpg`
+
+**Image templates:**
+
+Hero image:
+```html
+<div style="text-align: center; margin-bottom: 2rem;">
+  <img src="https://media.rustyploughfc.com/image.jpg" alt="Description" style="max-width: 100%; border-radius: 10px;">
+</div>
+```
+
+Image with caption:
+```html
+<figure style="text-align: center; margin: 2rem 0;">
+  <img src="https://media.rustyploughfc.com/image.jpg" alt="Description" style="max-width: 100%; border-radius: 10px;">
+  <figcaption style="margin-top: 0.5rem; font-style: italic; color: #999;">Caption text</figcaption>
+</figure>
+```
+
+Video embed with caption:
+```html
+<figure style="text-align: center; margin: 2rem 0;">
+  <div style="max-width: 800px; margin: 0 auto;">
+    {{< youtube VIDEO_ID >}}
+  </div>
+  <figcaption style="margin-top: 0.5rem; font-style: italic; color: #999;">Video caption</figcaption>
+</figure>
+```
+
+### Managing the Homepage Carousel
+
+1. Upload images to R2 (root directory): `carousel-slide01.jpg`, `carousel-slide02.jpg`, etc.
+2. Edit `hugo-site/data/carousel.yaml`:
+   ```yaml
+   images:
+     - carousel-slide01.jpg
+     - carousel-slide02.jpg
+     - carousel-slide03.jpg
+   ```
+3. Images appear in the order listed
 
 ## 📱 Features
 
