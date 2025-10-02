@@ -1,11 +1,12 @@
 ---
-title: "GIFE III - GIFE Edinburgh"
+title: "GIFE III"
+subtitle: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 GIFE Edinburgh"
 date: 2022-04-24
 location: "Edinburgh, Scotland"
-team_home: "Rusty Plough"
-team_away: "Spartans FC"
-score_home: 2
-score_away: 3
+team_home: "Spartans FC"
+team_away: "Rusty Plough"
+score_home: 3
+score_away: 2
 layout: "match"
 match_id: "edinburgh-2022"
 ---

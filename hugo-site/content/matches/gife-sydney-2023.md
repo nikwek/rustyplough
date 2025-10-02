@@ -1,9 +1,10 @@
 ---
-title: "GIFE IV - GIFEDU (Down Under)"
+title: "GIFE IV"
+subtitle: "🇦🇺 GIFE-DU (GIFE Down Under)"
 date: 2023-08-13
 location: "Sydney, Australia"
-team_home: "Rusty Plough"
-team_away: "Tigers Over Forty-Five"
+team_home: "TOFFs"
+team_away: "Rusty Plough"
 score_home: 3
 score_away: 3
 layout: "match"
@@ -15,7 +16,7 @@ match_id: "sydney-2023"
 </video>
 
 
-The Greatest International Friendly Ever “Down Under” edition (GIFE-DU) was timed to coincide with the 2023 Women’s World Cup (Australia/New Zealand). On August 13, 2023 (a WWC rest day),  the teeming GIFE masses will have traveled more than 7,500 miles, crossed the Equator, and traversed the International Date Line to arrive in Sydney Australia to take on the fearsome Tigers Over Forty-Five (the so-called “TOFFs”). GIFE-DU was expected to be our toughest test to date. Or at least the most drunken, which is a high bar (pun intended).
+The Greatest International Friendly Ever “Down Under” edition (GIFE-DU) was timed to coincide with the 2023 Women’s World Cup (Australia/New Zealand). On August 13, 2023 (a WWC rest day),  the teeming GIFE masses will have traveled more than 7,500 miles, crossed the Equator, and traversed the International Date Line to arrive in Sydney Australia to take on the TOFFFs (the fearsome Tigers Over Forty-Five). GIFE-DU was expected to be our toughest test to date. Or at least the most drunken, which is a high bar (pun intended).
 
 
 The venue for GIFE-DU was Lambert Park, 22 Foster St, Leichhardt NSW 2040, Australia - home of APIA Leichhardt FC. Lambert Park is conveniently located across the street from a “Residential Aged Care” facility for post–match assistance.

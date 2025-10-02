@@ -8,114 +8,32 @@
             We jokingly asked if we could join... the seed was planted... beers were consumed... 
             ideas about playing a game in Ireland started floating around... more beers were consumed... 
             plans were made... and so, the The Greatest International Friendly Ever (GIFE) was born. 
-            In hindsight, we probably should have involved Mira in the decision.</p>
+            In hindsight, we probably should have told Mira.</p>
     </div>
 </section>
 
 <section class="section">
     <div class="container">
         <div class="matches-grid">
-            <a href="{{ "/matches/gife-berlin-2025/" | relURL }}" class="match-card-link">
+            {{ range (where .Site.RegularPages "Section" "matches").ByDate.Reverse }}
+            <a href="{{ .RelPermalink }}" class="match-card-link">
                 <div class="match-card">
-                    <h3>GIFEVergnügen</h3>
-                    <p class="match-date">GIFE V - April 1, 2025, Berlin, Germany</p>
+                    <h3>{{ .Title }}</h3>
+                    <h4>{{ if .Params.subtitle }} {{ .Params.subtitle }}{{ end }}</h4>
+                    <p class="match-date">{{ .Date.Format "January 2, 2006" }} • {{ .Params.location }}</p>
                     <div class="match-score">
                         <div class="team">
-                            <span class="team-name">Rusty Plough</span>
+                            <span class="team-name">{{ .Params.team_home }}</span>
                         </div>
-                        <div class="score">1 : 14</div>
+                        <div class="score">{{ .Params.score_home }} : {{ .Params.score_away }}</div>
                         <div class="team">
-                            <span class="team-name">X Kickers</span>
+                            <span class="team-name">{{ .Params.team_away }}</span>
                         </div>
                     </div>
                     <p class="match-view-more">View Photos & Details →</p>
                 </div>
             </a>
-
-            <a href="{{ "/matches/gife-sydney-2023/" | relURL }}" class="match-card-link">
-                <div class="match-card">
-                    <h3>GIFEDU (Down Under)</h3>
-                    <p class="match-date">GIFE IV - August 13, 2023, Sydney, Australia</p>
-                    <div class="match-score">
-                        <div class="team">
-                            <span class="team-name">Rusty Plough</span>
-                        </div>
-                        <div class="score">3 : 3</div>
-                        <div class="team">
-                            <span class="team-name">Tigers Over Forty-Five</span>
-                        </div>
-                    </div>
-                    <p class="match-view-more">View Photos & Details →</p>
-                </div>
-            </a>
-
-            <a href="{{ "/matches/gife-edinburgh-2022/" | relURL }}" class="match-card-link">
-                <div class="match-card">
-                    <h3>GIFE Edinburgh</h3>
-                    <p class="match-date">GIFE III - April 24, 2022, Edinburgh, Scotland</p>
-                    <div class="match-score">
-                        <div class="team">
-                            <span class="team-name">Rusty Plough</span>
-                        </div>
-                        <div class="score">2 : 3</div>
-                        <div class="team">
-                            <span class="team-name">Spartans FC</span>
-                        </div>
-                    </div>
-                    <p class="match-view-more">View Photos & Details →</p>
-                </div>
-            </a>
-
-            <a href="{{ "/matches/gife-london-2022/" | relURL }}" class="match-card-link">
-                <div class="match-card">
-                    <h3>GIFELE.2 (Rematch)</h3>
-                    <p class="match-date">GIFE II.2 - April 20, 2022, London, UK</p>
-                    <div class="match-score">
-                        <div class="team">
-                            <span class="team-name">Rusty Plough</span>
-                        </div>
-                        <div class="score">7 : 1</div>
-                        <div class="team">
-                            <span class="team-name">Sticky Buns FC</span>
-                        </div>
-                    </div>
-                    <p class="match-view-more">View Photos & Details →</p>
-                </div>
-            </a>
-
-            <a href="{{ "/matches/gife-london-2019/" | relURL }}" class="match-card-link">
-                <div class="match-card">
-                    <h3>GIFELE (London Edition)</h3>
-                    <p class="match-date">GIFE II - January 31, 2019, London, UK</p>
-                    <div class="match-score">
-                        <div class="team">
-                            <span class="team-name">Rusty Plough</span>
-                        </div>
-                        <div class="score">2 : 2</div>
-                        <div class="team">
-                            <span class="team-name">Sticky Buns FC</span>
-                        </div>
-                    </div>
-                    <p class="match-view-more">View Photos & Details →</p>
-                </div>
-            </a>
-
-            <a href="{{ "/matches/gife-ireland-2017/" | relURL }}" class="match-card-link">
-                <div class="match-card">
-                    <h3>GIFE - Ireland</h3>
-                    <p class="match-date">GIFE I - July 29, 2017, Galway, Ireland</p>
-                    <div class="match-score">
-                        <div class="team">
-                            <span class="team-name">Rusty Plough</span>
-                        </div>
-                        <div class="score">1 : 0</div>
-                        <div class="team">
-                            <span class="team-name">Oughterard FC</span>
-                        </div>
-                    </div>
-                    <p class="match-view-more">View Photos & Details →</p>
-                </div>
-            </a>
+            {{ end }}
         </div>
     </div>
 </section>

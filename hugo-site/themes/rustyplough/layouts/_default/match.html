@@ -1,7 +1,10 @@
 {{ define "main" }}
 <section class="page-header">
     <div class="container">
-        <h1>🇩🇪 {{ .Title }}</h1>
+        <h1>{{ .Title }}</h1>
+        {{ if .Params.subtitle }}
+        <h2>{{ .Params.subtitle }}</h2>
+        {{ end }}
         <p>{{ .Date.Format "January 2, 2006" }} • {{ .Params.location }}</p>
     </div>
 </section>
