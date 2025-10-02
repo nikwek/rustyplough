@@ -80,13 +80,49 @@ description: ""
 - Double enter creates paragraph spacing
 - Links are automatically yellow (theme color)
 
-### Adding Match Pages
+### Adding GIFE Match Pages
 
+GIFE matches automatically appear on the International Competitions page when you create them.
+
+**1. Create the match file:**
 ```bash
-cd hugo-site
-hugo new content/matches/match-name.md
-# Edit with match details and photos
+cd hugo-site/content/matches
+# Create file: gife-location-year.md
+# Example: gife-paris-2026.md
 ```
+
+**2. Front matter template:**
+```yaml
+---
+title: "GIFE VI"
+subtitle: "🇫🇷 GIFE Paris"
+date: 2026-06-15
+location: "Paris, France"
+team_home: "Paris FC Veterans"
+team_away: "Rusty Plough"
+score_home: 2
+score_away: 3
+layout: "match"
+match_id: "paris-2026"
+---
+```
+
+**3. Add match report content below the front matter**
+
+**4. (Optional) Add photos/videos:**
+- Upload media to R2: `https://media.rustyploughfc.com/`
+- Create `hugo-site/data/matches/paris-2026.yaml`:
+  ```yaml
+  images:
+    - paris-gife-team-photo.jpg
+    - paris-gife-action-1.jpg
+    - paris-gife-celebration.mp4
+  ```
+
+**Tips:**
+- Use flag emojis in subtitle: 🇮🇪 🇬🇧 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🇦🇺 🇩🇪 🇫🇷
+- Match cards are generated automatically from the front matter
+- Matches appear in reverse chronological order (newest first)
 
 ### Managing Images
 
