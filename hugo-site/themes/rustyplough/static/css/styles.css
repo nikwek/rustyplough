@@ -25,6 +25,17 @@ body {
     background-color: var(--bg-dark);
 }
 
+/* Links */
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -265,6 +276,20 @@ body {
 .content-card p {
     margin-bottom: 1.5rem;
     line-height: 1.6;
+}
+
+/* Blog post headings with extra spacing */
+.content-card h1,
+.content-card h2,
+.content-card h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.content-card h1:first-child,
+.content-card h2:first-child,
+.content-card h3:first-child {
+    margin-top: 0;
 }
 
 .subtitle {
