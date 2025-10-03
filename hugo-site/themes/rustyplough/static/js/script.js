@@ -62,9 +62,9 @@ const observer = new IntersectionObserver(function(entries) {
     });
 }, observerOptions);
 
-// Observe all cards
+// Observe all cards (excluding content-card which is main content, not a grid item)
 document.addEventListener('DOMContentLoaded', function() {
-    const cards = document.querySelectorAll('.match-card, .blog-card, .content-card');
+    const cards = document.querySelectorAll('.match-card, .blog-card');
     cards.forEach(card => {
         card.style.opacity = '0';
         card.style.transform = 'translateY(20px)';
