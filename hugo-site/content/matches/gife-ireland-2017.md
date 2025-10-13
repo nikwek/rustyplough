@@ -1,6 +1,6 @@
 ---
-title: "GIFE I"
-subtitle: "🇮🇪 GIFE Ireland"
+title: "GIFE"
+subtitle: "🇮🇪 The original GIFE"
 date: 2017-07-29
 location: "Galway, Ireland"
 team_home: "Oughterard FC"

@@ -1,6 +1,6 @@
 ---
-title: "GIFE II"
-subtitle: "🇬🇧 GIFELE (GIFE London Edition)"
+title: "GIFELE"
+subtitle: "🇬🇧 GIFE London Edition"
 date: 2019-01-31
 location: "London, UK"
 team_home: "Sticky Buns FC"

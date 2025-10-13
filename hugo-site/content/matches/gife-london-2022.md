@@ -1,6 +1,6 @@
 ---
-title: "GIFE II.2"
-subtitle: "🇬🇧 GIFE London Edition - Rematch"
+title: "GIFE III"
+subtitle: "🇬🇧 The Rematch"
 date: 2022-04-20
 location: "London, UK"
 team_home: "Sticky Buns FC"

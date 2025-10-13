@@ -1,6 +1,6 @@
 ---
-title: "GIFE IV"
-subtitle: "🇦🇺 GIFE-DU (GIFE Down Under)"
+title: "GIFE-DU"
+subtitle: "🇦🇺 GIFE Down Under"
 date: 2023-08-13
 location: "Sydney, Australia"
 team_home: "TOFFs"

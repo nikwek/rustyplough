@@ -1,6 +1,6 @@
 ---
 title: "GIFE III"
-subtitle: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 GIFE Edinburgh"
+subtitle: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Ooooch laddie"
 date: 2022-04-24
 location: "Edinburgh, Scotland"
 team_home: "Spartans FC"
