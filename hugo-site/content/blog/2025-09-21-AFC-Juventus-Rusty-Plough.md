@@ -4,7 +4,15 @@ date: 2025-09-21
 author: "Chris Hudson"
 description: ""
 ---
-We will remember, the 21st of September….
+
+<figure style="text-align: center; margin: 2rem 0;">
+  <div style="max-width: 800px; margin: 0 auto;">
+    {{< youtube ajzRxiczWuk >}}
+  </div>
+  <figcaption style="margin-top: 0.5rem; font-style: italic; color: #999;">Video courtesy of Jak Media Enterprises</figcaption>
+</figure>
+
+We will remember, the 21st of September…
 
 Starting the season with two home games[^1] the Rusty Plough went on the road to Lafayette to face Juventus (an Italian team in a French city in suburban California).  As the sun rose over the field, the Rusties donned their away blacks with Trumer Pils in bright yellow across their chests. Per manager Welch’s instructions, at least one player (the German) arrived at least 30 minutes before game time. MOST of the other rostered players arrived before the game actually started.
 
