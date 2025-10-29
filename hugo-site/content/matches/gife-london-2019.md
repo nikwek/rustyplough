@@ -18,5 +18,5 @@ In the words of Jeff: "The birthday and the blazer have exceeded all expectation
 Here's an excerpt of a video that Jeff created:
 
 <div style="max-width: 800px; margin: 2rem auto;">
-  {{< youtube sV6nBYQeNMQ >}}
+  {{< youtube NF3_MPm-ChA >}}
 </div>
