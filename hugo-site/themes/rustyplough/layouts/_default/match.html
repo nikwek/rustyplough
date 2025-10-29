@@ -43,7 +43,7 @@
             {{ $ext := path.Ext $filename }}
             {{ if or (eq $ext ".mov") (eq $ext ".mp4") (eq $ext ".MOV") (eq $ext ".MP4") }}
             <div class="gallery-item" data-src="{{ $mediaURL }}" data-type="video">
-                <video src="{{ $mediaURL }}" preload="metadata"></video>
+                <video src="{{ $mediaURL }}#t=0.1" preload="metadata"></video>
                 <div class="play-icon">▶</div>
             </div>
             {{ else }}
