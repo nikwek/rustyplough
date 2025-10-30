@@ -1,6 +1,6 @@
 ---
 title: "Le GIFÉ"
-subtitle: "🇫🇷 Ooh La La"
+subtitle: "🇫🇷 Ooh La La - GIFE VI"
 date: 2026-05-11
 location: "Paris, France"
 team_home: "Julien's Team"
