@@ -4,6 +4,7 @@
 # Hugo will auto-detect videos by file extension (.mov, .mp4)
 
 media:
+  - LE-GIFE-julien.jpg
   - LE-GIFE-charlesdegaulle.jpg
   - LE-GIFE-charlesdegaullefutbol.png
   - LE-GIFE-numerodix.jpg
