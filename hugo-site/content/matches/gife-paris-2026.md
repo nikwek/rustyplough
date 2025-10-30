@@ -47,6 +47,7 @@ The preliminary schedule is as follows:
 - April 11 (Saturday) Le GIFE match day. Kickoff at 10:45am. Post game libations and, of course, déjeuner (that’s lunch).
 - April 12 (Sunday) Paris FC v Monaco at Stade Jean Bouin
 
+
 We will likely add more activities before and/or after the official travel dates, but this short
 itinerary would be the minimum travel time. 
 

@@ -278,6 +278,25 @@ a:hover {
     line-height: 1.6;
 }
 
+.content-card ul,
+.content-card ol {
+    margin: 1rem 0 1.25rem 1.5rem;
+    padding-left: 1.25rem;
+    list-style-position: outside;
+}
+
+.content-card ul { list-style-type: disc; }
+.content-card ol { list-style-type: decimal; }
+
+.content-card li { margin: 0.25rem 0; }
+
+.content-card p + ul,
+.content-card p + ol,
+.content-card ul + p,
+.content-card ol + p {
+    margin-top: 0.75rem;
+}
+
 /* Blog post headings with extra spacing */
 .content-card h1,
 .content-card h2,
