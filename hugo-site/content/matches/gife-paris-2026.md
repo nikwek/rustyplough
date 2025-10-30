@@ -5,8 +5,8 @@ date: 2026-05-11
 location: "Paris, France"
 team_home: "Julien's Team"
 team_away: "Rusty Plough"
-score_home: TBD
-score_away: TBD
+score_home: -
+score_away: -
 layout: "match"
 match_id: "paris-2026"
 ---
