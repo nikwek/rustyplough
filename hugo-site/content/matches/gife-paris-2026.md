@@ -39,7 +39,9 @@ We have been promised the following:
 - Full field
 - Players over 40 (maybe even over 45!)
 
+
 The preliminary schedule is as follows:
+
 - April 9 (Thursday) Players to be in Paris on or by this day. Welcome dinner / drinks with our hosts in the evening.
 - April 10 (Friday) Sightseeing / no official activities (although there is always something going on with this group).
 - April 11 (Saturday) Le GIFE match day. Kickoff at 10:45am. Post game libations and, of course, déjeuner (that’s lunch).
