@@ -12,10 +12,10 @@ match_id: "paris-2026"
 ---
 
 
-<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; align-items:start;">
+<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; align-items:start; margin-bottom: 1.5rem;">
   <figure style="margin:0;">
     <img src="https://media.rustyploughfc.com/LE-GIFE-louvre.jpg" alt="Louvre" style="width:100%; height:auto;" loading="lazy">
-    <figcaption>Ou est la bibliothèque?</figcaption>
+    <figcaption>Mais qu'est-ce que c'est?</figcaption>
   </figure>
   <figure style="margin:0;">
     <img src="https://media.rustyploughfc.com/LE-GIFE-jewels.jpg" alt="Louvre Jewels" style="width:100%; height:auto;" loading="lazy">
