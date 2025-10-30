@@ -2,6 +2,7 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Rusty Plough FC | ⚽ | Berkeley CA'
 theme = 'rustyplough'
+buildFuture = true
 
 [params]
   description = "The Rusty Plough is an over 40 soccer team based in Berkeley, CA."
