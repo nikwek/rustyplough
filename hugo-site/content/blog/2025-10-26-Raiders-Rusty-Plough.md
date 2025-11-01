@@ -1,7 +1,7 @@
 ---
 title: "Raiders 2 : 2 Rusty Plough"
 date: 2025-10-26
-author: "Jak"
+author: "Jak Kiriruangchai"
 description: ""
 ---
 
