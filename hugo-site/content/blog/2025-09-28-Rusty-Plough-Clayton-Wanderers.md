@@ -1,5 +1,5 @@
 ---
-title: "	Rusty Plough 0:5 Clayton Wanderers"
+title: "Rusty Plough 0:5 Clayton Wanderers"
 date: 2025-09-28
 author: "Chris Hudson"
 description: ""
