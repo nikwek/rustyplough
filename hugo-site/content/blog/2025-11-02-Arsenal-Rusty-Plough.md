@@ -47,14 +47,15 @@ Overall, a great few weeks with three more games to go before the league is rese
 
 Golden Boot:
 
-* Andy 4 (1 PK)  
-* Peter 3 (shoot more)  
-* Dale 2 (let’s not talk about it)  
-* Nik 2 (oldest man on the pitch)  
-* Michael 1  
-* Adam 1  
-* Dave 1  
+* Peter 3 (shoot more)
+* Andy 3 (1 PK)
+* Dale 2 (let’s not talk about it)
+* Nik 2 (oldest man on the pitch)
+* Adam 2
+* Michael 1
+* Dave 1
 * Tyler 1
+
 
 NB: This reporter, in an effort to gain the trust if his subjects, may have spent three hours at Trumer Pils. Although this article is based on actual events, any similarity between this story and actual people is purely fictional.
 
