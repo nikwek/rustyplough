@@ -60,3 +60,19 @@ Golden Boot:
 NB: This reporter, in an effort to gain the trust if his subjects, may have spent three hours at Trumer Pils. Although this article is based on actual events, any similarity between this story and actual people is purely fictional.
 
 [^1]:  When Dale was asked for comment about one of the worst misses in Plough history, he said; “I am not revisiting that moment. Thanks for asking. Shithead\!” 
+
+<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; align-items:start; margin-bottom: 1.5rem;">
+  <figure style="margin:0;">
+    <img src="https://media.rustyploughfc.com/2025-11-02-Arsenal-Rusty-Plough-first-aid.jpg" alt="James" style="width:100%; height:auto;" loading="lazy">
+    <figcaption>Steamy James</figcaption>
+  </figure>
+  <figure style="margin:0;">
+    <img src="https://media.rustyploughfc.com/2025-11-02-Arsenal-Rusty-Plough-james.jpg" alt="First Aid" style="width:100%; height:auto;" loading="lazy">
+    <figcaption>Rusty Plough First Aid Kit</figcaption>
+  </figure>
+</div>
+
+
+8 MB
+
+
