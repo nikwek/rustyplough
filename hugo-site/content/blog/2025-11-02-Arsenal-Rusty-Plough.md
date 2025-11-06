@@ -63,11 +63,11 @@ NB: This reporter, in an effort to gain the trust if his subjects, may have spen
 
 <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; align-items:start; margin-bottom: 1.5rem;">
   <figure style="margin:0;">
-    <img src="https://media.rustyploughfc.com/2025-11-02-Arsenal-Rusty-Plough-first-aid.jpg" alt="James" style="width:100%; height:auto;" loading="lazy">
+    <img src="https://media.rustyploughfc.com/2025-11-02-Arsenal-Rusty-Plough-james.jpg" alt="James" style="width:100%; height:auto;" loading="lazy">
     <figcaption>Steamy James</figcaption>
   </figure>
   <figure style="margin:0;">
-    <img src="https://media.rustyploughfc.com/2025-11-02-Arsenal-Rusty-Plough-james.jpg" alt="First Aid" style="width:100%; height:auto;" loading="lazy">
+    <img src="https://media.rustyploughfc.com/2025-11-02-Arsenal-Rusty-Plough-first-aid.jpg" alt="First Aid" style="width:100%; height:auto;" loading="lazy">
     <figcaption>Rusty Plough First Aid Kit</figcaption>
   </figure>
 </div>
