@@ -71,8 +71,3 @@ NB: This reporter, in an effort to gain the trust if his subjects, may have spen
     <figcaption>Rusty Plough First Aid Kit</figcaption>
   </figure>
 </div>
-
-
-8 MB
-
-
