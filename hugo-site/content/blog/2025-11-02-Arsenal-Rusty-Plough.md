@@ -5,6 +5,13 @@ author: "Chris Hudsonabich"
 description: ""
 ---
 
+<figure style="text-align: center; margin: 2rem 0;">
+  <div style="max-width: 800px; margin: 0 auto;">
+    {{< youtube WS84BAMP8Mc}}
+  </div>
+  <figcaption style="margin-top: 0.5rem; font-style: italic; color: #999;">Video courtesy of Jak Media Enterprises</figcaption>
+</figure>
+
 In soccer, there are two opposite but equally important forces. The defenders that stop the goals, and the strikers that score them. These are their stories.
 
 The morning was delayed. The 9am kickoff time felt leisurely, perhaps it was the time change? Many Rusties arrived early, despite the foggy morn. By 8:40, most of the team had arrived, eager to implement player/manager Welch’s plan. The Rusties had selected the away kits, black with the yellow Trumer Pils logo across the chest, as always, they looked dazzling.
