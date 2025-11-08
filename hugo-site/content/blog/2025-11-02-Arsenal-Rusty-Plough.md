@@ -7,7 +7,7 @@ description: ""
 
 <figure style="text-align: center; margin: 2rem 0;">
   <div style="max-width: 800px; margin: 0 auto;">
-    {{< youtube WS84BAMP8Mc}}
+    {{< youtube WS84BAMP8Mc >}}
   </div>
   <figcaption style="margin-top: 0.5rem; font-style: italic; color: #999;">Video courtesy of Jak Media Enterprises</figcaption>
 </figure>
