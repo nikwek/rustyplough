@@ -1,7 +1,7 @@
 ---
 title: "Le GIFÉ"
 subtitle: "🇫🇷 Ooh La La - GIFE VI"
-date: 2026-05-11
+date: 2026-04-11
 location: "Paris, France"
 team_home: "Julien's Team"
 team_away: "Rusty Plough"
