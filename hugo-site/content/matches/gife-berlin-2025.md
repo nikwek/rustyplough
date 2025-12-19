@@ -1,6 +1,6 @@
 ---
-title: "GIFE V"
-subtitle: "🇩🇪 GIFEVergnügen"
+title: "GIFEVergnügen"
+subtitle: "🇩🇪 GIFE V, ja?"
 date: 2025-04-01
 location: "Berlin, Germany"
 team_home: "X Kickers"
